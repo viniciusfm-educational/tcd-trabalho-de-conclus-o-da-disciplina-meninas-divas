@@ -1,4 +1,3 @@
-#tcd-trabalho-de-conclus-o-da-disciplina-meninas-divas
 # NOME DO PROJETO
 *O nome do projeto é ***Outfit.exe***.*
 <hr>
@@ -42,29 +41,30 @@
     * As roupas poderão ser excluídas assim que estiverem fora de estoque
 
 5) **Cadastro de clientes**
-    * Ao acessar o site, os clientes terão a possibilidade de realizar seus cadastros
+    * Ao acessar o site, os clientes terão a possibilidade de realizar seus cadastros ou de fazer login. Caso não esteja registrado, o usuário poderá fazer seu cadastro.
     * O cadastro coletará informações de:
     ```plain
-        *e-mail;
-        *nome completo;
-        *nome de usuário.
-        ```
+        -E-MAIL
+        -NOME COMPLETO
+        -NOME DE USUÁRIO
+        -SENHA
+    ```
 
 6) **Login e autenticação**
+    * Após feito o cadastro, o cliente poderá se registrar sempre que abrir a plataforma
+    * Para finalizar a autenticação, serão pedidas as informações de ***nome de usuário*** ou ***e-mail***.
 
 7) **Carrinho de compras**
+    * Se registrado, o cliente poderá adicionar itens no seu carrinho de compras.
+    * Na aba de listagem, é possível clicar no botão em formato de carrinho para adicionar o produto desejado ao carrinho de compras
+    * O cliente pode adicionar quantos itens desejar e selecionar os que serão comprados.
 
 8) **Finalização de pedido**
-
-## Objeto Task
-
-O objeto `task` (ou tarefa, do inglês) é composto de cinco valores:
-
-| Campo         | Tipo                  | Descrição               |
-|---------------|-----------------------|-------------------------|
-| `id`          | *long*                | Identificador da tarefa |
-| `title`       | *string*              | Título da tarefa        |
-| `description` | *string*              | Descrição da tarefa     |
-| `priority`    | *char:* `h`, `m`, `l` | Prioridade              |
-| `done`        | *boolean*             | Status da tarefa        |
-
+    * Depois de escolhidos os produtos, o cliente poderá, finalmente, comprá-los.
+    * Para finalizar o pedido, serão coletadas informações de:
+    ```plain
+        -FORMA DE PAGAMENTO
+        -TELEFONE PARA CONTATO
+        -NOME DO COMPRADOR
+        -ENDEREÇO DA ENTREGA
+    ```
