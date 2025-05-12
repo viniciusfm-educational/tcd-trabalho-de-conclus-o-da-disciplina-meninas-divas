@@ -35,7 +35,7 @@
     * Haverá filtros de pesquisa
 
 3) **Edição das peças de vestuário**:
-    * 
+    * Caso seja necessário, o sistema poderá editar informações da peça.
 
 4) **Exclusão de produtos**:
     * As roupas poderão ser excluídas assim que estiverem fora de estoque
